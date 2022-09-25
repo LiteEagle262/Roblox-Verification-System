@@ -9,7 +9,6 @@ def phrase(user_id):
     acc = json.load(open(f"db/{user_id}.json", "r"))
     return acc['phrase']
 
-
 def check(user_id):
   r = requests.get(f"https://users.roblox.com/v1/users/{user_id}")
   jso = r.json()
