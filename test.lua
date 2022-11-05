@@ -9,7 +9,7 @@ queueonteleport = syn.queue_on_teleport or queue_on_teleport
 player.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
         queueonteleport([[
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/LiteEagle262/LiteEagle262.github.io/main/test.lua')()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/LiteEagle262/Roblox-Verification-System/main/test.lua')()
         ]])
     end
  end)
